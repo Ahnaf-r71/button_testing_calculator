@@ -8,7 +8,7 @@ class CalculatorInputDisplay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color(0xFF003366), //
+      color: Color(0xFF003366),
       padding: EdgeInsets.all(16),
       alignment: Alignment.centerRight,
       child: Text(
@@ -18,3 +18,4 @@ class CalculatorInputDisplay extends StatelessWidget {
     );
   }
 }
+
