@@ -105,7 +105,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       ),
                       CalculatorButton(     label: '7',
                         onPressed: () {
-                          // Append '1' to the inputText when '1' button is pressed
+                          
                           setState(() {
                             inputText += '1';
                             inputController.text = inputText;
@@ -297,10 +297,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       child: CalculatorButton(
     label: '=',
     onPressed: () {
-    // Append '1' to the inputText when '1' button is pressed
+  
     setState(() {
     inputText += '=';
-    inputController.text = inputText; // Update the TextEditingController
+    inputController.text = inputText; 
     });
     },
     ),
